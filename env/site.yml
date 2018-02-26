@@ -26,9 +26,8 @@ engines:
           version: v1.0.43
       tk-rv-shotgunreview:
         location:
-          name: tk-rv-shotgunreview
-          type: manual
-          version: v1.0.43
+          type: path
+          path: /Volumes/af/tools/thirdparty/common/tk-rv-shotgunreview
       tk-multi-importcut:
           cut_link_field: sg_entity
           default_head_in: 1001
@@ -71,7 +70,7 @@ frameworks:
       type: manual
       version: v1.0.43
   tk-framework-editorial_v1.x.x:
-    location: 
+    location:
       name: tk-framework-editorial
       type: manual
       version: v1.0.43
