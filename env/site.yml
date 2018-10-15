@@ -36,9 +36,8 @@ engines:
           display_name: Import Cut
           ensure_sg_setup_hook: '{self}/post_install.py'
           location:
-            name: tk-multi-importcut
-            type: manual
-            version: v1.0.43
+            type: path
+            path: /Volumes/af/tools/thirdparty/common/tk-multi-importcut
           omit_statuses: [inac, hld, omt]
           reinstate_status: ip
           report_to_group: Editorial
@@ -71,7 +70,5 @@ frameworks:
       version: v1.0.43
   tk-framework-editorial_v1.x.x:
     location:
-      name: tk-framework-editorial
-      type: manual
-      version: v1.0.43
-
+      type: path
+      path: /Volumes/af/tools/thirdparty/common/tk-framework-editorial
